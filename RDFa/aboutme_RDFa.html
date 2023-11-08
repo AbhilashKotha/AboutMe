@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" prefix="schema: http://schema.org/">
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <title typeof="schema:AboutPage">About Me</title>
+</head>
+
+<body typeof="schema:WebPage">
+
+  <header property="schema:headline">
+    <h1 typeof="schema:Person" property="schema:name">Abhilash Kotha</h1> 
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#introduction" property="schema:significantLink">Introduction</a></li>
+      <br>
+      <li><a href="#skills" property="schema:significantLink">Skills</a></li>
+    </ul>
+  </nav>
+
+  <main>
+        <section property="schema:articleSection">
+            <h2 id="introduction" property="schema:headline">Introduction</h2>
+            <p style="width: 90%">
+                I am an<span property="schema:jobTitle"> IT professional</span>  with 7 years of experience in application development, production support, and <span href="schema:https://en.wikipedia.org/wiki/IT_service_management">service management</span>. I have worked in the manufacturing, supply chain, and financial services sectors, supporting business-critical systems. I am currently pursuing a <span property="schema:educationalLevel">Master of Science in Computer Science</span> and am skilled in various technologies including <span property="schema:skills">C#, ASP.NET, SQL Server, and Azure.</span>
+            </p>
+        </section>
+       
+        <section property="schema:articleSection">
+      <h2 id="skills" property="schema:headline">Skills</h2>
+            <table>
+                <tr>
+                    <th>Languages</th>
+                    <td property="schema:programmingLanguage">C#, Python, JavaScript, HTML, CSS</td>
+                </tr>
+                <tr>
+                    <th>Frameworks</th>
+                    <td>ASP.NET, Angular, React</td>
+                </tr>
+                <tr>
+                    <th>Databases</th>
+                    <td>MS SQL Server, MongoDB</td>
+                </tr>
+                <tr>
+                    <th>Tools</th>
+                    <td>Visual Studio, AWS, Azure, Git, Jira</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p property="schema:copyrightHolder">
+        &copy; 2023 Abhilash Kotha. All rights reserved.
+        </p>
+    </footer>
+</body>
+
+</html>
